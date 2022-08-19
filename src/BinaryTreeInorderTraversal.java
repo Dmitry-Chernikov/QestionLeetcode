@@ -1,6 +1,6 @@
 /**
  * BinaryTreeInorderTraversal
- * Неупорядоченный обход двоичного дерева
+ * 94.Неупорядоченный обход двоичного дерева
  * @author :Dmitry_Chernikov
  * @version :0.0.0
  * @since :2022-07-21, чт, 13:53

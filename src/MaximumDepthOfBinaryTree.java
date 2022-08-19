@@ -1,6 +1,6 @@
 /**
  * MaximumDepthOfBinaryTree
- * Максимальная глубина бинарного дерева
+ * 104.Максимальная глубина бинарного дерева
  * @author :Dmitry_Chernikov
  * @version :0.0.0
  * @since :2022-07-21, чт, 13:54

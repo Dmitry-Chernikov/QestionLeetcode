@@ -6,9 +6,17 @@ public class Main {
 //        TreeNode root = initTreeNode(arr);
 //        MinimumDistanceBetweenBstNodes a = new MinimumDistanceBetweenBstNodes();
 //        System.out.println(a.minDiffInBST(root));
-        int[] arr = {100,77,83};
-        MinimumAmountOfTimeToFillCups a = new MinimumAmountOfTimeToFillCups();
-        System.out.println(a.fillCups(arr));
+
+        //int[] arr = {100,77,83};
+        //MinimumAmountOfTimeToFillCups a = new MinimumAmountOfTimeToFillCups();
+        //System.out.println(a.fillCups(arr));
+
+        int[] arr = {3,3,3,3,5,5,5,2,2,7};
+        //int[] arr = {1,9};
+        //int[] arr = {13,13,13,13,15,15,15,12,12,17,18,19,22,22,22,22};
+
+        ReduceArraySizeToTheHalf a = new ReduceArraySizeToTheHalf();
+        System.out.println(a.minSetSize(arr));
     }
 
     static TreeNode initTreeNode(Integer[] arr) {

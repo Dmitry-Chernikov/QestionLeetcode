@@ -1,6 +1,6 @@
 /**
  * MinimumDistanceBetweenBstNodes
- * Минимальное расстояние между узлами BST
+ * 783.Минимальное расстояние между узлами BST
  * @author :Dmitry_Chernikov
  * @version :0.0.0
  * @since :2022-07-21, чт, 13:58
