@@ -1,7 +1,8 @@
+import java.io.IOException;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        Integer[] arr = {27, null, 34, null, 58, 50, null, 44};
 //        TreeNode root = initTreeNode(arr);
 //        MinimumDistanceBetweenBstNodes a = new MinimumDistanceBetweenBstNodes();
@@ -10,13 +11,20 @@ public class Main {
         //int[] arr = {100,77,83};
         //MinimumAmountOfTimeToFillCups a = new MinimumAmountOfTimeToFillCups();
         //System.out.println(a.fillCups(arr));
-
-        int[] arr = {3,3,3,3,5,5,5,2,2,7};
+//////////////
+        //int[] arr = {3,3,3,3,5,5,5,2,2,7};
         //int[] arr = {1,9};
         //int[] arr = {13,13,13,13,15,15,15,12,12,17,18,19,22,22,22,22};
 
-        ReduceArraySizeToTheHalf a = new ReduceArraySizeToTheHalf();
-        System.out.println(a.minSetSize(arr));
+        //ReduceArraySizeToTheHalf a = new ReduceArraySizeToTheHalf();
+        //System.out.println(a.minSetSize(arr));
+ ////////////
+        //YandexContestAutumn y = new YandexContestAutumn();
+        //y.alisaPlagiarism();
+        //y.alisaPlagiarismArrChar();
+////////////
+        YandexAerobatics y = new YandexAerobatics();
+        y.getInfoAerobatics();
     }
 
     static TreeNode initTreeNode(Integer[] arr) {
