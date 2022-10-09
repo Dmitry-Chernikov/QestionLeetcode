@@ -23,8 +23,18 @@ public class Main {
         //y.alisaPlagiarism();
         //y.alisaPlagiarismArrChar();
 ////////////
-        YandexAerobatics y = new YandexAerobatics();
-        y.getInfoAerobatics();
+        //YandexAerobatics y = new YandexAerobatics();
+        //y.getInfoAerobatics();
+////////////
+        //YandexCunningCipher y = new YandexCunningCipher();
+        //y.getCipher();
+////////////
+        //YandexLogRocket y = new YandexLogRocket();
+        //y.sortLog();
+////////////
+        HeadHunter h = new HeadHunter();
+        //h.getSumGame();
+        h.getSquareRegion();
     }
 
     static TreeNode initTreeNode(Integer[] arr) {

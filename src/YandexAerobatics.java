@@ -56,7 +56,7 @@ public class YandexAerobatics {
 
         //disciplines.stream().flatMap(discipline -> discipline.parties.stream()).sorted((o1, o2) -> o1.nameParty.compareTo(o2.nameParty)).forEach(s -> System.out.println(s.nameParty));
         disciplines.stream().flatMap(discipline -> discipline.parties.stream().map(party -> party.nameParty)).sorted().forEach(s -> System.out.println(s));
-/*        ArrayList<String> outStr = new ArrayList<>();
+/**        ArrayList<String> outStr = new ArrayList<>();
         for (Discipline discipline: disciplines) {
             outStr.addAll(discipline.parties.stream().map(party -> party.nameParty).toList()) ;
         }

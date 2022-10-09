@@ -3,7 +3,7 @@ import java.util.stream.Stream;
 
 /**
  * ReduceArraySizeToTheHalf
- * 1338. Reduce Array Size to The Half
+ * 1338. Reduce Array Size to The Half Уменьшить размер массива до половины
  * @author :Dmitry_Chernikov
  * @version :0.0.0
  * @since :2022-08-18, чт, 9:53
