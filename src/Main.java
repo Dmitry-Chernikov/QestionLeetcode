@@ -32,9 +32,13 @@ public class Main {
         //YandexLogRocket y = new YandexLogRocket();
         //y.sortLog();
 ////////////
-        HeadHunter h = new HeadHunter();
+        //HeadHunter h = new HeadHunter();
         //h.getSumGame();
-        h.getSquareRegion();
+        //h.getSquareRegion();
+////////////
+        WeekendOfferYandex y = new WeekendOfferYandex();
+        //y.EvenOddMatrix();
+        y.PhotoFeed();
     }
 
     static TreeNode initTreeNode(Integer[] arr) {
